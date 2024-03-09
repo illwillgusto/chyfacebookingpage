@@ -1,6 +1,6 @@
 body {
   width: auto;
-  height: auto;
+  height: 950px;
   background-image: linear-gradient(180deg, #FFF 0%, #E674E8 100%); }
 
 .container {
@@ -45,7 +45,7 @@ body {
     padding: 5px;
     width: 105%; }
 
-img_container {
+.img_container {
   display: flex;
   justify-content: space-between;
   /* Aligns children at the start and end */
@@ -58,23 +58,44 @@ img_container {
   width: 100%;
   /* Takes full width of the body or nearest positioned ancestor */
   z-index: 1;
-  /* Behind the .container element */
-  height: fit-content; }
+  /* Behind the .container element */ }
+  .img_container .chyprofilepic {
+    margin-top: 188px;
+    height: 764px;
+    left: 58%;
+    position: relative;
+    z-index: 1; }
+  .img_container .chyprofilepic2 {
+    height: 584px;
+    /* Or any desired height */
+    position: relative;
+    /* Positioned absolutely within .img_container */
+    right: 68%;
+    /* Aligns to the right */
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(65%);
+    /* Center vertically */ }
 
-.chyprofilepic {
-  margin-top: 284px;
-  left: 58%;
-  position: relative;
-  z-index: 1; }
-
-.chyprofilepic2 {
-  height: 1084px;
-  /* Or any desired height */
-  position: absolute;
-  /* Positioned absolutely within .img_container */
-  right: 54%;
-  /* Aligns to the right */
-  top: 90%;
-  /* Center vertically */
-  transform: translateY(-50%);
-  /* Center vertically */ }
+@media (max-width: 768px) {
+  body {
+    height: 768px; }
+  .navheader {
+    display: none; }
+  .container {
+    width: 90%;
+    height: auto;
+    box-shadow: none;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center; }
+    .container .inputgroup {
+      width: 100%;
+      padding: 5px;
+      align-items: center; }
+    .container .button .button {
+      width: 115%;
+      align-items: center;
+      right: 54%; }
+  .img_container {
+    display: none; } }
