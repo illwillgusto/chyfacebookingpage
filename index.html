@@ -9,7 +9,7 @@
 <body>
     <div><span style="color: #E674E8; font-size: 96px; font-family: Arizonia; font-weight: 400; word-wrap: break-word">Chy</span><span style="color: #E674E8; font-size: 96px; font-family: Bilbo Swash Caps; font-weight: 400; word-wrap: break-word">F</span><span style="color: #E674E8; font-size: 96px; font-family: Arizonia; font-weight: 400; word-wrap: break-word">ace</span></div>
     <div class="container">
-        <h3><center>Book Your Appointment Today</center></h3>
+        <h3 class="formtitle"><center>Book Your Appointment Today</center></h3>
         <form action="/submit" method="get">
             <div class="inputgroup">
                 <label for="name">Your Name</label>
@@ -41,17 +41,18 @@
                 <input type="time" id="time" name="time" placeholder="Time Request" required>
             </div>
 
-            <div class="button">
-                <button type="submit">Book</button>
+            <div class="inputgroup">
+                <div class="button">
+                    <button type="submit">Book</button>
+                </div>
             </div>
 
         </form>
     </div>
-
-    <img class="chyprofilepic" src="assets/img/chy.png" alt="picture of the owner and artist of ChyFace">
-
-        <img class="client1" src="assets/img/imgchyfaceasset-1.png" alt="">
-        <img class="client2" src="assets/img/image-2.png" alt="">
+    <div class="img_container">
+        <img class="chyprofilepic" src="assets/img/chy.png" alt="picture of the owner and artist of ChyFace">
+        <img class="chyprofilepic2" src="assets/img/chyFaceclients.png" alt="picture of the owner and artist of ChyFace">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
