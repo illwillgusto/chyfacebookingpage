@@ -9,6 +9,7 @@ body {
     font-family: "Allura", cursive;
     font-weight: 400;
     font-size: 96px;
+    position: relative;
 }
 
 .formtitle {
@@ -102,10 +103,15 @@ body {
 
 @media (max-width: 768px) {
     body {
-        height: 768px;
+        height: 968px;
     }
 
     .navheader {
+        font-size: 88px;
+        left: 30%;
+    }
+
+    .logoimg {
         display: none;
     }
 
