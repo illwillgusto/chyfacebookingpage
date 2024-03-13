@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChyFace Booking Web App</title>
     <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Rock+Salt&family=Sixtyfour&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navheader"><span style="color: #E674E8; font-size: 96px; font-family: Arizonia; font-weight: 400; word-wrap: break-word">Chy</span><span style="color: #E674E8; font-size: 96px; font-family: Bilbo Swash Caps; font-weight: 400; word-wrap: break-word">F</span><span style="color: #E674E8; font-size: 96px; font-family: Arizonia; font-weight: 400; word-wrap: break-word">ace</span></div>
+    <div class="navheader"><span>ChyFace</span></div>
     <div class="container">
         <h3 class="formtitle"><center>Book Your Appointment Today</center></h3>
         <form name="appointment-form" method="get" data-netlify="true">
-
             <div class="inputgroup">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -43,7 +45,6 @@
                 </div>
             </div>
             <input type="hidden" name="success" value="/thank-you.html" id="">
-
         </form>
     </div>
     <div class="img_container">
@@ -51,6 +52,5 @@
         <img class="chyprofilepic2" src="assets/img/chyFaceclients.png" alt="picture of the owner and artist of ChyFace">
     </div>
     <script src="script.js"></script>
-    <script src="node.js"></script>
 </body>
 </html>

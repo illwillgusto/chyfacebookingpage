@@ -3,6 +3,11 @@ body {
   height: 950px;
   background-image: linear-gradient(180deg, #FFF 0%, #E674E8 100%); }
 
+.navheader {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-size: 96px; }
+
 .container {
   width: 728px;
   height: 851px;
