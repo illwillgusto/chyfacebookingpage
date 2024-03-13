@@ -11,6 +11,11 @@ body {
     font-size: 96px;
 }
 
+.formtitle {
+    font-family: "Allura", cursive;
+    font-size: 42px;
+}
+
 .container {
     width: 728px;
     height: 851px;
@@ -61,6 +66,9 @@ body {
     .button button {
         padding: 5px;
         width: 105%;
+        font-weight: bold;
+        font-family: "Allura", cursive;
+        font-size: 24px;
     }
 }
 
