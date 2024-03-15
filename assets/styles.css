@@ -92,10 +92,12 @@ body {
 
 @media (max-width: 768px) {
   body {
-    height: 968px; }
+    height: 968px;
+    width: auto;
+    display: flex;
+    justify-content: center; }
   .navheader {
-    font-size: 88px;
-    left: 20%; }
+    font-size: 88px; }
   .logoimg {
     display: none; }
   .container {
